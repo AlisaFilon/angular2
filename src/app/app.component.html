@@ -38,7 +38,6 @@
 
   <!-- Next Steps -->
   <h2>My App Alisa</h2>
-
   <input type="number" name="num1" [(ngModel)]="num1">
   <input type="number" name="num2" [(ngModel)]="num2">
 <br>
@@ -60,13 +59,14 @@
 
     <button class="card card-small" (click)="divide()" tabindex="0">
       <svg class="material-icons" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z"/></svg>
-      <span>÷</span>
+      <span></span>
     </button>
     <br>
     <h3>
       Result: {{num3}}
     </h3>
   </div>
+<app-users></app-users>
 
   <!-- Terminal -->
   <!--<div class="terminal" [ngSwitch]="selection.value">
